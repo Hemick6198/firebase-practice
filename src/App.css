@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.bars__logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.user__info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo {
+    width: 250px;
+    margin: 16px;
+}
+
+.bars {
+    font-size: 30px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #7342d6;
+}
+
+.bars:active {
+    transform: translate(-1px, 1px);
+}
+
+.btn {
+    letter-spacing: .25px;
+    padding: 12px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:active {
+    transform: translate(-1px, 1px);
+}
+
+.nav__sign-out {
+    background-color: #7342d6;
+    color: whitesmoke;
+}
+
+.user__icon {
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: none;
+    background-color: rgb(64, 96, 238);
+    font-size: 24px;
+    color: white;
+}
+
+.skeleton {
+    background-color: rgb(227, 227, 227) !important;
+    margin: 8px;
+}
+
+.skeleton__button {
+    height: 34px;
+    width: 100%;
+    max-width: 150px;
+}
+
+.skeleton__icon {
+    margin: 8px;
+    padding: 18px 18px;
+    border-radius: 999px;
+    border: none;
+}
